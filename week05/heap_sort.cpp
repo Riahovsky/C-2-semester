@@ -6,6 +6,18 @@
 //#define N 100
 //#endif
 using namespace std;
+
+union RecordType    // Declare a simple union type
+{
+    char   ch;
+    int    i;
+    long   l;
+    float  f;
+    double d;
+    int *int_ptr;
+};
+
+
 void heap(int arr[], int n, int i) {
     int largest = i;
     int l = 2*i + 1;
@@ -39,5 +51,25 @@ int main() {
     for (i = 0; i < N; ++i) {
         cout << arr[i] << ' ';
      }
+cout << endl;
+     int yy, uu = 5;
+     cout << yy;
+int k = 0;
+cout << endl;
+     for (i = 0; i < 10; ++i) {
+++k;
+     }
+    RecordType t;
+    t.i = 5; // t holds an int
+    t.f = 7.25; // t now holds a float
+int * ptr = &k;
+
+int const qqq = 0;
+int const www = 1;
+
+int const* q = &qqq;
+q = &www;
+cout << *q;
     return 0;
+    
 }

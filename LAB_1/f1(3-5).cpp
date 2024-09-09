@@ -35,7 +35,7 @@ int main ( ) {
 
     auto begin = std::chrono::steady_clock::now( );
     for( unsigned cnt = 1000; cnt != 0; --cnt)
-    f1(arr1,b,n);
+        f1(arr1,b,n);
     auto end = std::chrono::steady_clock::now( );
     auto time_span =
     std::chrono::duration_cast<std::chrono::milliseconds>(end - begin);

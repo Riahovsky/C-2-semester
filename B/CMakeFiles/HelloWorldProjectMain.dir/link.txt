@@ -1,0 +1,1 @@
+/usr/bin/g++.exe -Wl,--enable-auto-import CMakeFiles/HelloWorldProjectMain.dir/main.cpp.o -o /c/Users/user/Desktop/2semestr_cpp/bin/HelloWorldProjectMain.exe -Wl,--out-implib,libHelloWorldProjectMain.dll.a -Wl,--major-image-version,0,--minor-image-version,0
